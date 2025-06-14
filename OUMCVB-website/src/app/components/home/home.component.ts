@@ -5,7 +5,7 @@ import { HeroComponent } from "../hero/hero.component";
   selector: 'app-home',
   imports: [HeroComponent],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
 
