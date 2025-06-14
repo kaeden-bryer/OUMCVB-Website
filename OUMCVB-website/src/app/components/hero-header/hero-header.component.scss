@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    padding-bottom: 100px;
+
+  
+    .mask, .body{
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: rgb(199, 174, 113);
+      font-size: 64px;
+      line-height: 66px;
+      cursor: default;
+      
+      p{
+        padding:40px;
+      }
+      span{
+        color: goldenrod;
+      }
+    }
+  
+    .mask{
+      mask-image: url('mask.svg');
+      mask-repeat: no-repeat;
+      mask-size: 40px;
+      transition: all 0.5s ease-out;
+      background: goldenrod;
+      position: absolute;
+      color: black;
+      padding-bottom: 100px;
+    }
+}
