@@ -25,14 +25,14 @@
     justify-content: space-between;
   }
   
-  #brand {
+  #brand, #brand-shortened{
     font-weight: bold;
     font-size: 18px;
     display: flex;
     align-items: center;
   }
   
-  #brand a {
+  #brand a, #brand-shortened a {
     color: goldenrod;
   }
   
@@ -107,13 +107,28 @@
   .mobile-menu li {
     margin-bottom: 10px;
   }
+
+  #brand-shortened {
+    display: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: goldenrod;
+  }
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 760px) {
     header nav {
       display: none;
     }
   
     #hamburger-icon {
+      display: block;
+    }
+
+    #brand {
+      display: none;
+    }
+
+    #brand-shortened {
       display: block;
     }
   }

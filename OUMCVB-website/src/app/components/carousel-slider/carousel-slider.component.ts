@@ -30,9 +30,9 @@ export class CarouselSliderComponent implements OnInit {
   ngOnInit(): void {
     this.slides[0] = {
       id: 0,
-      src: 'angular.jpg',
-      title: 'First slide',
-      subtitle: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+      src: 'oumcvb-fundraiser.jpg',
+      title: 'Oakland Grass Power 4\'s Fundraiser!',
+      subtitle: 'Come join us at our annual grass power 4\s fundraiser tournament! Sign up on facebook with your friends!'
     };
     this.slides[1] = {
       id: 1,

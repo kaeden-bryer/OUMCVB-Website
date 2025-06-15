@@ -25,10 +25,10 @@ export class HeroHeaderComponent {
     });
   }
 
-  get maskStyle() {
+  calculateMaskStyle() {
     const size = this.isHovered ? 400 : 40;
     const posX = this.x - size / 2;
-    const posY = this.y -  size / 2;
+    const posY = this.y -  size / 2 - 100;
     return {
       WebkitMaskPosition: `${posX}px ${posY}px`,
       WebkitMaskSize: `${size}px`,
