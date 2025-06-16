@@ -1,0 +1,60 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+    background-color: goldenrod;
+    padding: 20px;
+}
+
+.outer-about-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+    background-color: #202020;
+}
+
+.inner-container {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.practice-times {
+    text-align: center;
+}
+
+.about-content {
+    border: solid 2px #fff;
+    width: 100%;
+    text-align: center;
+    width: 60%;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        gap: 20px;
+    }
+  }

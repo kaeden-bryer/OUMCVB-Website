@@ -12,5 +12,9 @@ export class PlayerCardComponent {
 
   constructor() { }
 
+  flipCard(card: HTMLElement) {
+    card.classList.toggle('click');
+  }
+
   // Additional methods can be added here if needed
 }

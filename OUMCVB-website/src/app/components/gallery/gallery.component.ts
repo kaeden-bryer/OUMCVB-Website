@@ -10,7 +10,7 @@ import {
 } from '@coreui/angular';
 
 @Component({
-  selector: 'app-carousel-slider',
+  selector: 'app-gallery',
   imports: [
     CarouselComponent,
     CarouselIndicatorsComponent,
@@ -20,19 +20,19 @@ import {
     CarouselCaptionComponent,
     RouterLink,
   ],
-  templateUrl: './carousel-slider.component.html',
-  styleUrl: './carousel-slider.component.scss'
+  templateUrl: './gallery.component.html',
+  styleUrl: './gallery.component.scss'
 })
 
-export class CarouselSliderComponent implements OnInit {
+export class GalleryComponent implements OnInit {
   slides: any[] = new Array(3).fill({ id: -1, src: '', title: '', subtitle: '' });
 
   ngOnInit(): void {
     this.slides[0] = {
       id: 0,
-      src: 'oumcvb-fundraiser.jpg',
-      title: 'Oakland Grass Power 4\'s Fundraiser!',
-      subtitle: 'Come join us at our annual grass power 4\s fundraiser tournament! Sign up on facebook with your friends!'
+      src: 'angular.jpg',
+      title: 'First slide',
+      subtitle: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
     };
     this.slides[1] = {
       id: 1,

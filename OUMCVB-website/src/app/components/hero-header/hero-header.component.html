@@ -1,0 +1,19 @@
+
+<div class="main">
+    
+    <div class="mask" [ngStyle]="calculateMaskStyle()">
+        <p
+            (mouseenter)="isHovered = true" 
+            (mouseleave)="isHovered = false">
+        We are <strong>Grizzlies</strong></p>
+        <p
+            (mouseenter)="isHovered = true" 
+            (mouseleave)="isHovered = false">
+            Relentless determination in pursuit of greatness.</p>
+    </div>
+
+    <div class="body">
+        <p>We are <span><strong>Golden</strong></span></p>
+        <p>Raising the bar and redefining excellence.</p>
+    </div>
+</div>

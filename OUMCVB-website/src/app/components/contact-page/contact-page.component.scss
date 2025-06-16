@@ -1,0 +1,50 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: goldenrod;
+    padding: 20px;
+}
+
+#eboard-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    padding: 30px;
+    background-color: #202020;
+}
+
+#eboard-container h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.eboard-member {
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.eboard-member h3 {
+    color: #000;
+    width: 100%;
+}
+
+.eboard-member span {
+    font-weight: bold;
+    color: black;
+}
+
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
